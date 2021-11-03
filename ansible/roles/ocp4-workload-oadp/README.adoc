@@ -38,7 +38,6 @@ ansible-playbook -i "bastion.${GUID}.${BASE_DOMAIN}", ./ansible/configs/ocp-work
 -e"student_password=${STUDENT_PASSWORD}" \
 -e"guid=${GUID}" \
 -e"subdomain_base_suffix=${BASE_DOMAIN}" \
--e"api_url=${API_URL}" \
 -e"ocs_namespace=${OCS_NAMESPACE}" \
 -e"silent=False" \
 -e"ACTION=create"
