@@ -44,6 +44,7 @@
       k8s:
         state: present
         definition: "{{ oadp_approved_install_plan }}"
+      retries: 20
 
 - name: "Wait for OADP CRDs to exist"
   k8s_info:
