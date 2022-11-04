@@ -1,3 +1,6 @@
 awscli==1.18.136
 boto3==1.14.59
 botocore==1.17.59
+pyyaml>=5.4 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
