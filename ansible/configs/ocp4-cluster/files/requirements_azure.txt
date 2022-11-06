@@ -34,3 +34,6 @@ azure-nspkg==2.0.0
 azure-storage==0.35.1
 msrest==0.6.1
 msrestazure==0.5.0
+knack>=0.5.2 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pyjwt>=2.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
