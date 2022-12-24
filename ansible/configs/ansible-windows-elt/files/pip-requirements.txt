@@ -38,3 +38,4 @@ psutil==5.7.0
 cliff==2.18.0                                                                                                                                      
 cmd2==0.8.9
 python-gitlab==1.12.1
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
