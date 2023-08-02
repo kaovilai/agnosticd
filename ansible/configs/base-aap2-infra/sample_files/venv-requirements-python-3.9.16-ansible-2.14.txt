@@ -126,7 +126,7 @@ cmd2==2.4.3
 colorama==0.4.4
 configparser==5.3.0
 construct==2.10.68
-cryptography==39.0.1
+cryptography==41.0.3
 debtcollector==2.5.0
 decorator==5.1.1
 Deprecated==1.2.13
