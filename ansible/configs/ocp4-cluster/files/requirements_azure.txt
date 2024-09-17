@@ -34,3 +34,4 @@ azure-nspkg==2.0.0
 azure-storage==0.35.1
 msrest==0.6.1
 msrestazure==0.5.0
+wheel>=0.38.0 # not directly required, pinned by Snyk to avoid a vulnerability
