@@ -1,3 +1,4 @@
 ansible-builder
 ansible-runner
 ansible-navigator[ansible-core]
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
